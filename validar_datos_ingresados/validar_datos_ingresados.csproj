@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B417F1F-3BFF-4A5E-A5A7-1DF2CBB7BD52}</ProjectGuid>
+    <ProjectGuid>{BC575EA7-C658-4445-A213-491B30BB6A4A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Interfaz_Supervisor</RootNamespace>
-    <AssemblyName>Interfaz_Supervisor</AssemblyName>
+    <RootNamespace>validar_datos_ingresados</RootNamespace>
+    <AssemblyName>validar_datos_ingresados</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -78,28 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\cargar_nueva_ot\cargar_nueva_ot.csproj">
-      <Project>{940c6af2-a4cd-4115-a376-4d9a30a3bd51}</Project>
-      <Name>cargar_nueva_ot</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\generar_links\generar_links.csproj">
-      <Project>{a4b96905-cb29-404c-8c5e-037a4f00909e}</Project>
-      <Name>generar_links</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\planificar_semana\planificar_semana.csproj">
-      <Project>{f04780f7-6a61-4f51-8b65-2740b9e92871}</Project>
-      <Name>planificar_semana</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\revisar_estado_ot\revisar_estado_ot.csproj">
-      <Project>{339b1df3-cd7a-47b1-ae94-65e631c8cb19}</Project>
-      <Name>revisar_estado_ot</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\validar_datos_ingresados\validar_datos_ingresados.csproj">
-      <Project>{bc575ea7-c658-4445-a213-491b30bb6a4a}</Project>
-      <Name>validar_datos_ingresados</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
