@@ -44,6 +44,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.btnSeleccionarBD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -181,11 +182,21 @@
             this.textBox6.Size = new System.Drawing.Size(200, 20);
             this.textBox6.TabIndex = 216;
             // 
+            // btnSeleccionarBD
+            // 
+            this.btnSeleccionarBD.Location = new System.Drawing.Point(852, 543);
+            this.btnSeleccionarBD.Name = "btnSeleccionarBD";
+            this.btnSeleccionarBD.Size = new System.Drawing.Size(126, 57);
+            this.btnSeleccionarBD.TabIndex = 222;
+            this.btnSeleccionarBD.Text = "SELECCIONAR BD";
+            this.btnSeleccionarBD.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1191, 683);
+            this.Controls.Add(this.btnSeleccionarBD);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -225,6 +236,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button btnSeleccionarBD;
     }
 }
 

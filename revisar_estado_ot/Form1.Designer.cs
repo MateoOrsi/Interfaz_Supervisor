@@ -68,6 +68,7 @@
             this.fecha_ot = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fecha_inicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fecha_cierre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSeleccionarBD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -422,11 +423,21 @@
             this.fecha_cierre.HeaderText = "FECHA CIERRE";
             this.fecha_cierre.Name = "fecha_cierre";
             // 
+            // btnSeleccionarBD
+            // 
+            this.btnSeleccionarBD.Location = new System.Drawing.Point(452, 44);
+            this.btnSeleccionarBD.Name = "btnSeleccionarBD";
+            this.btnSeleccionarBD.Size = new System.Drawing.Size(126, 57);
+            this.btnSeleccionarBD.TabIndex = 233;
+            this.btnSeleccionarBD.Text = "SELECCIONAR BD";
+            this.btnSeleccionarBD.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1191, 683);
+            this.Controls.Add(this.btnSeleccionarBD);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label7);
@@ -485,6 +496,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn fecha_ot;
         private System.Windows.Forms.DataGridViewTextBoxColumn fecha_inicio;
         private System.Windows.Forms.DataGridViewTextBoxColumn fecha_cierre;
+        private System.Windows.Forms.Button btnSeleccionarBD;
     }
 }
 

@@ -62,6 +62,7 @@
             this.ots = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientes = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descripcions = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSeleccionarBD = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -338,11 +339,21 @@
             this.descripcions.HeaderText = "DESCRIPCIÓN";
             this.descripcions.Name = "descripcions";
             // 
+            // btnSeleccionarBD
+            // 
+            this.btnSeleccionarBD.Location = new System.Drawing.Point(342, 8);
+            this.btnSeleccionarBD.Name = "btnSeleccionarBD";
+            this.btnSeleccionarBD.Size = new System.Drawing.Size(126, 57);
+            this.btnSeleccionarBD.TabIndex = 219;
+            this.btnSeleccionarBD.Text = "SELECCIONAR BD";
+            this.btnSeleccionarBD.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1191, 683);
+            this.Controls.Add(this.btnSeleccionarBD);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.textBox21);
@@ -406,6 +417,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ots;
         private System.Windows.Forms.DataGridViewTextBoxColumn clientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn descripcions;
+        private System.Windows.Forms.Button btnSeleccionarBD;
     }
 }
 

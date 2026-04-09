@@ -67,6 +67,7 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnSeleccionarBD = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -86,7 +87,7 @@
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Location = new System.Drawing.Point(767, 118);
+            this.groupBox2.Location = new System.Drawing.Point(767, 102);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(395, 297);
             this.groupBox2.TabIndex = 236;
@@ -193,7 +194,7 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Location = new System.Drawing.Point(35, 118);
+            this.groupBox1.Location = new System.Drawing.Point(35, 102);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(726, 553);
             this.groupBox1.TabIndex = 235;
@@ -269,7 +270,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(32, 86);
+            this.label7.Location = new System.Drawing.Point(32, 70);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(340, 13);
             this.label7.TabIndex = 234;
@@ -279,7 +280,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 44);
+            this.label3.Location = new System.Drawing.Point(29, 28);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(445, 31);
             this.label3.TabIndex = 233;
@@ -316,7 +317,7 @@
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.dateTimePicker1);
             this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Location = new System.Drawing.Point(767, 421);
+            this.groupBox3.Location = new System.Drawing.Point(767, 405);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(395, 250);
             this.groupBox3.TabIndex = 248;
@@ -427,11 +428,21 @@
             this.button2.Text = "MODIFICAR";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // btnSeleccionarBD
+            // 
+            this.btnSeleccionarBD.Location = new System.Drawing.Point(504, 28);
+            this.btnSeleccionarBD.Name = "btnSeleccionarBD";
+            this.btnSeleccionarBD.Size = new System.Drawing.Size(126, 57);
+            this.btnSeleccionarBD.TabIndex = 249;
+            this.btnSeleccionarBD.Text = "SELECCIONAR BD";
+            this.btnSeleccionarBD.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1191, 683);
+            this.Controls.Add(this.btnSeleccionarBD);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -492,6 +503,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSeleccionarBD;
     }
 }
 
